@@ -1,0 +1,199 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #002062;
+}
+
+.container {
+    display: flex;
+    min-height: 100vh;
+}
+
+.login-section {
+    background-color: #002062;
+    color: white;
+    padding: 50px 40px;
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.logo {
+    margin-bottom: 25px;
+    width: 420px;
+}
+
+.login-section h2 {
+    margin-bottom: 25px;
+    font-size: 40px;
+}
+
+.login-section form {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.login-section input {
+    padding: 14px;
+    margin-bottom: 15px;
+    border: none;
+    border-radius: 8px;
+    outline: none;
+    font-size: 16px;
+}
+
+.forgot-password {
+    color: #ccc;
+    text-decoration: none;
+    background-color: #002062;
+    font-size: 14px;
+    margin-bottom: 20px;
+    border: none;
+    display: flex;
+    justify-content: end;
+    cursor: pointer;
+}
+
+.signin-btn {
+    padding: 14px;
+    background-color: #1A4FBA;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-bottom: 20px;
+    transition: background-color 0.3s ease;
+}
+
+.signin-btn:hover {
+    background-color: #155db0;
+}
+
+.divider {
+    margin: 20px 0;
+    text-align: center;
+    font-size: 14px;
+    color: #ccc;
+}
+
+.social-buttons button {
+    width: 350px;
+    height: 49px;
+    padding: 15px;
+    margin-bottom: 10px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+    background-color: #0F2D6B;
+    justify-content: center;
+    gap: 15px;
+}
+
+.google-btn p {
+    color: #C1B6B6;
+    border: none;
+}
+
+
+.facebook-btn p {
+    color: #C1B6B6;
+    border: none;
+}
+
+.apple-btn {
+    color: #C1B6B6;
+    border: none;
+}
+
+.create-account {
+    margin-top: 25px;
+    font-size: 14px;
+}
+
+.create-account a {
+    color: #4671C6;
+    text-decoration: none;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.image-section {
+    width: 60%;
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.image-section img {
+    max-width: 100%;
+    height: 110vh;
+    width: 100%;
+}
+
+.input-group {
+    display: flex;
+    align-items: center;
+    background: #03286d;
+    border-radius: 8px;
+    margin-bottom: 15px;
+    height: 50px;
+    padding: 15px 0px 0 20px;
+    justify-content: center;
+}
+
+.input-group i {
+    color: #57A5D8;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    margin-bottom: 17px;
+}
+
+.input-group input {
+    border: none;
+    outline: none;
+    font-size: 16px;
+    flex: 1;
+    background: transparent;
+}
+
+.hr {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+
+hr {
+    width: 150px;
+}
+
+.divider {
+    padding-left: 10px;
+    padding-right: 10px;
+    color: #9B9B9B;
+}
+
+@media screen and (max-width: 650px) {
+    .image-section {
+        display: none;
+    }
+
+    .login-section {
+        width: 100%;
+        padding: 30px;
+    }
+}
