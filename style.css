@@ -6,22 +6,26 @@
 
 body {
     font-family: 'Arial', sans-serif;
-    background-color: #002062;
+    /* background-color: #002062; */
+
 }
 
 .container {
     display: flex;
-    min-height: 100vh;
+    justify-content: center;
+    align-items: center;
+    /* margin-top: 50px; */
 }
 
 .login-section {
+
     background-color: #002062;
     color: white;
     padding: 50px 40px;
-    width: 40%;
     display: flex;
     flex-direction: column;
     align-items: center;
+    border-radius: 15px 0 0 15px;
     justify-content: center;
 }
 
@@ -71,12 +75,8 @@ body {
     font-size: 16px;
     cursor: pointer;
     margin-bottom: 20px;
-    transition: background-color 0.3s ease;
 }
 
-.signin-btn:hover {
-    background-color: #155db0;
-}
 
 .divider {
     margin: 20px 0;
@@ -85,7 +85,7 @@ body {
     color: #ccc;
 }
 
-.social-buttons button {
+.social-buttons a {
     width: 350px;
     height: 49px;
     padding: 15px;
@@ -99,22 +99,12 @@ body {
     background-color: #0F2D6B;
     justify-content: center;
     gap: 15px;
+    text-decoration: none;
 }
 
-.google-btn p {
+.social-buttons a p {
     color: #C1B6B6;
-    border: none;
-}
-
-
-.facebook-btn p {
-    color: #C1B6B6;
-    border: none;
-}
-
-.apple-btn {
-    color: #C1B6B6;
-    border: none;
+    margin: 0;
 }
 
 .create-account {
@@ -130,16 +120,14 @@ body {
 }
 
 .image-section {
-    width: 60%;
-    background-color: #fff;
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
 .image-section img {
-    max-width: 100%;
-    height: 110vh;
+    height: 815px;
+    border-radius: 0 15px 15px 0;
     width: 100%;
 }
 
@@ -195,5 +183,6 @@ hr {
     .login-section {
         width: 100%;
         padding: 30px;
+       border-radius: 0px;
     }
 }
