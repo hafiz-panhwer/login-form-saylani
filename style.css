@@ -18,14 +18,14 @@ body {
 }
 
 .login-section {
-
+width: 35%;
     background-color: #002062;
     color: white;
     padding: 50px 40px;
     display: flex;
     flex-direction: column;
     align-items: center;
-    border-radius: 15px 0 0 15px;
+    /* border-radius: 15px 0 0 15px; */
     justify-content: center;
 }
 
@@ -122,12 +122,14 @@ body {
 .image-section {
     display: flex;
     align-items: center;
+    width: 50%;
+    height: 100%;
     justify-content: center;
 }
 
 .image-section img {
-    height: 815px;
-    border-radius: 0 15px 15px 0;
+    height: 819px;
+    /* border-radius: 0 15px 15px 0; */
     width: 100%;
 }
 
